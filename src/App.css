@@ -1,0 +1,561 @@
+@import '~leaflet/dist/leaflet.css';
+
+
+.t {
+    max-height: 110vh;
+}
+
+.navtxt.scrolled {
+    background-color: #F8F8F8;
+
+}
+
+.navtxt.scrolled a {
+    color: black;
+
+}
+
+.navs {
+    background-color: #F8F8F8;
+}
+
+.bgg {
+    background-color: #fafafa;
+
+}
+
+.role:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.09);
+}
+
+.navs a {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.navs button {
+    background: burlywood;
+    border-color: burlywood;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.navtxt.scrolled button {
+    background: burlywood;
+    border-color: #deb887;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.txtu h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #212529;
+
+}
+
+.txtb a {
+    color: white;
+}
+
+.txtb a:hover {
+    color: burlywood;
+}
+
+.txtj h1 {
+    color: burlywood;
+
+}
+
+.btno button {
+    border-color: burlywood;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.btno button:hover {
+    background: burlywood;
+    border-color: burlywood;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+#btnon {
+    background: burlywood;
+    border-color: burlywood;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+
+.btnjw button {
+    background: burlywood;
+    border-color: burlywood;
+    color: #212529;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.btnjw button:hover {
+    background: burlywood;
+    border-color: burlywood;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btnj button {
+    background: #e2b171;
+    border-color: burlywood;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btnb button {
+    background: black;
+    border-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.btnj button:hover {
+    background: black;
+    border-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.vertical-line {
+    width: 4px;
+    /* Ajustez la largeur de la ligne selon vos besoins */
+    height: 140px;
+    /* Ajustez la hauteur de la ligne selon vos besoins */
+    background-color: burlywood;
+    /* Couleur de fond de la ligne */
+    border-radius: 2px;
+    /* Rayon de bordure pour obtenir des bords arrondis */
+}
+
+.txtleft h1 span {
+    text-align: left;
+    color: burlywood;
+
+}
+
+.txtleft h1 {
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 5vw;
+    /* Ajuste la taille de la police en fonction de la largeur de la fenêtre */
+    line-height: 1;
+    font-weight: 700;
+}
+
+.txtleft p {
+    text-align: left;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 18px;
+    /* Taille par défaut pour les paragraphes */
+    line-height: 140%;
+}
+
+@media (max-width: 768px) {
+    .txtleft h1 {
+        font-size: 5vw;
+        /* Augmente la taille de la police pour les écrans plus petits */
+    }
+
+    .txtleft p {
+        font-size: 16px;
+        /* Réduit légèrement la taille de la police pour les paragraphes */
+    }
+}
+
+@media (max-width: 576px) {
+    .txtleft h1 {
+        font-size: 20px;
+        /* Augmente encore plus la taille de la police pour les très petits écrans */
+    }
+
+    .txtleft p {
+        font-size: 7px;
+        /* Réduit encore plus la taille de la police pour les paragraphes */
+    }
+
+    .txtleft .btno button {
+        font-size: 7px;
+    }
+
+    .txtleft #btnon {
+        font-size: 7px;
+    }
+
+    .vertical-line {
+        height: 40px;
+        width: 2px;
+    }
+
+}
+
+
+.carousel-control-next {
+    max-width: 50px;
+}
+
+.carousel-control-prev {
+    max-width: 50px;
+}
+
+.navtxt {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.carrep {
+    font-size: 50px;
+    line-height: 80%;
+    color: burlywood;
+    font-weight: 500;
+
+}
+
+.bgd {
+
+    background-color: #212529;
+
+}
+
+.txtpt h1 {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 70px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+@media (max-width: 576px) {
+    .txtpt h1 {
+        font-size: 25px;
+    }
+    .text-break {
+        font-size: 10px;
+    }
+    .carrep {
+        font-size: 30px;
+    }
+}
+
+.txtr h1 {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 38px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.txtpt p {
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.txtl {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 140%;
+}
+
+.txtptg p {
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+
+}
+
+.txtptg h3 {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.txtpf h1 {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+
+}
+@media (max-width: 576px) {
+    .txtptg h3 {
+        font-size: 13px;
+    }
+    .txtptg p {
+        font-size: 10px;
+    }
+    .txtptg button{
+        font-size: 7px;
+    }
+    .txtpf h1 {
+        font-size: 50px;
+    }
+}
+
+
+.vertical-line2 {
+    width: 6px;
+    /* Ajustez la largeur de la ligne selon vos besoins */
+    height: 90px;
+    /* Ajustez la hauteur de la ligne selon vos besoins */
+    background-color: burlywood;
+    /* Couleur de fond de la ligne */
+    border-radius: 2px;
+}
+
+.ftxt p {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 700;
+
+}
+
+.ftxt a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 130%;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.ftxt a:hover {
+    color: burlywood;
+    font-size: 20px;
+
+}
+
+.scroll-bg {
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.scroll-div {
+    height: 300px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dcdbdb;
+    border-radius: 10px;
+}
+
+.navt span {
+    text-decoration: none;
+    color: #000;
+}
+
+/*  */
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la carte */
+#map {
+    width: 100%;
+    height: 500px;
+}
+
+/* Style des info-bulles */
+.leaflet-popup-content-wrapper {
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.leaflet-popup-tip-container {
+    display: none;
+}
+
+/* Style des marqueurs */
+.marker-icon {
+    width: 32px;
+    height: 32px;
+}
+
+/* Style de l'itinéraire */
+.leaflet-routing-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Style des boutons de contrôle de l'itinéraire */
+.leaflet-routing-container .leaflet-routing-collapse-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.leaflet-routing-container .leaflet-routing-collapse-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style des segments de l'itinéraire */
+.leaflet-routing-container .leaflet-routing-instructions-segment {
+    margin-bottom: 5px;
+}
+
+/* Style des instructions de l'itinéraire */
+.leaflet-routing-container .leaflet-routing-instructions {
+    margin-top: 10px;
+}
+
+/* Style des étapes de l'itinéraire */
+.leaflet-routing-container .leaflet-routing-instructions-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leaflet-routing-container .leaflet-routing-instructions-list li {
+    margin-bottom: 5px;
+}
+
+/* Style du texte des étapes de l'itinéraire */
+.leaflet-routing-container .leaflet-routing-instructions-list li span {
+    font-weight: bold;
+}
+
+/* styles.css */
+
+/* Style pour les cases du calendrier contenant des expéditions */
+.expedition-date {
+    position: relative;
+    /* Position relative pour que le point rouge soit positionné par rapport à la case */
+}
+
+/* Point rouge à l'intérieur de la case */
+.expedition-date::before {
+    content: '';
+    /* Contenu vide */
+    position: absolute;
+    /* Position absolue pour placer le point */
+    top: 5px;
+    /* Position verticale ajustée pour le positionner correctement */
+    left: 5px;
+    /* Position horizontale ajustée pour le positionner correctement */
+    width: 8px;
+    /* Largeur du point */
+    height: 8px;
+    /* Hauteur du point */
+    background-color: red;
+    /* Couleur du point rouge */
+    border-radius: 50%;
+    /* Bordure arrondie pour créer un point */
+}
+
+.date-cell.has-notes {
+    background-color: #f5f5f5;
+    /* Changer la couleur de fond */
+    border-radius: 50%;
+    /* Pour créer un cercle autour du jour avec des notes */
+}
+
+.date-cell.has-notes .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #1890ff;
+    /* Changer la couleur du point indiquant des notes */
+    border-radius: 50%;
+    /* Pour rendre le point rond */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*sidebar css*/
+.sidebar-container,
+.content-container {
+    transition: 0.3s ease;
+}
+
+/* style navbar */
+
+.nav-link.active {
+    border-bottom: 1px solid #EF8354;
+    /* Ligne sous les onglets de navigation */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #EF8354;
+}
+
+.nav a {
+    color: black;
+}
+
+.borderc {
+    border: 1px solid #EF8354;
+    border-radius: 6px;
+}
+
+.scroll-notifications {
+    height: 87vh;
+    overflow-y: auto;
+}
+
+@media (max-width: 576px) {
+    .nav a {
+        font-size: 12px;
+    }
+    .navbar-brand {
+        font-size: 12px;
+
+    }
+    .bi {
+        width: 18px;
+    }
+    .nav-link img{
+        width: 30px;
+    }
+    .welcome{
+        font-size: 12px;
+    }
+}
